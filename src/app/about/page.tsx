@@ -4,7 +4,6 @@ import { H2 } from "../components/ui/H2";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { relative } from "path";
 
 export const metadata: Metadata = {
   title: "About Me",
