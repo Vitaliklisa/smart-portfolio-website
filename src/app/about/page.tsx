@@ -62,21 +62,21 @@ export default function Page() {
           </li>
           <li>
             <Link
-              href="https://smart-portfolio-website.vercel.app"
-              className="text-primary hover:underline"
-            >
-              Smart portfolio website
-            </Link>{" "}
-            - Of course this website with chatbot 2024 Mar 27-28
-          </li>
-          <li>
-            <Link
               href="https://youtu.be/kJm5mGibKlw"
               className="text-primary hover:underline"
             >
               Donut made in Blender
             </Link>{" "}
             - Spring-Summer 2023
+          </li>
+          <li>
+            <Link
+              href="https://smart-portfolio-website.vercel.app"
+              className="text-primary hover:underline"
+            >
+              Smart portfolio website
+            </Link>{" "}
+            - Of course this website with chatbot 2024 Mar 27-28
           </li>
         </ul>
       </section>
