@@ -14,7 +14,7 @@ export default function Page() {
       <section className="space-y-3">
         <H2>My Accounts</H2>
 
-        <p>Links to all my social accounts:</p>
+        <p>Links to all my social accounts how you can contact with me:</p>
         <ul className="list-inside list-disc space-y-1">
           <li>
             <a
