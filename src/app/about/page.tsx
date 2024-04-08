@@ -17,8 +17,9 @@ export default function Page() {
       <section className="space-y-3">
         <H2>Who am I?</H2>
         <p>
-          My name is Vitalii Khomenko I&apos;m 15 years old. I am a software developer from
-          Ukraine. I started programming in 2021, at the age of 12-13 years old.{" "}
+          My name is Vitalii Khomenko I&apos;m 15 years old. I am a software
+          developer from Ukraine. I started programming in 2021, at the age of
+          12-13 years old.{" "}
         </p>
         <p>
           I&apos;m passionate study everything new and sharing my result in the
@@ -77,6 +78,24 @@ export default function Page() {
               Smart portfolio website
             </Link>{" "}
             - Of course this website with chatbot 2024 Mar 27-28
+          </li>
+          <li>
+            <Link
+              href="https://business-assistant-cyan.vercel.app"
+              className="text-primary hover:underline"
+            >
+              Business Assistant
+            </Link>{" "}
+            - Made in April 7 2024
+          </li>
+          <li>
+            <Link
+              href="https://philosophy-ai-one.vercel.app"
+              className="text-primary hover:underline"
+            >
+              Philosophy Quote generator
+            </Link>{" "}
+            - Made in April 7 2024
           </li>
         </ul>
       </section>
