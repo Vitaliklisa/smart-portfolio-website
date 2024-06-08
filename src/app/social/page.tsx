@@ -49,6 +49,14 @@ export default function Page() {
               LinkedIn
             </a>
           </li>
+          <li>
+            <a
+              href="https://www.goodreads.com/?ref=nav_hom"
+              className="text-primary hover:underline"
+            >
+              GoodReads
+            </a>
+          </li>
         </ul>
         <hr className="border-muted" />
       </section>
