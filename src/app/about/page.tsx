@@ -11,13 +11,23 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
+  // Calculate age
+  const birthDate = new Date(2008, 3, 5); // Birth date (April 5, 2008)
+  const currentDate = new Date();
+  let age = currentDate.getFullYear() - birthDate.getFullYear();
+  const m = currentDate.getMonth() - birthDate.getMonth();
+  
+  if (m < 0 || (m === 0 && currentDate.getDate() < birthDate.getDate())) {
+    age--;
+  }
+
   return (
     <section className="space-y-6">
       <H1>About Me</H1>
       <section className="space-y-3">
         <H2>Who am I?</H2>
         <p>
-          My name is Vitalii Khomenko I&apos;m 16 years old. I am a software
+          My name is Vitalii Khomenko I&apos;m {age} years old. I am a software
           developer from Ukraine. I started programming in 2021, at the age of
           12-13 years old.{" "}
         </p>
