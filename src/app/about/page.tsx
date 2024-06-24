@@ -17,7 +17,7 @@ export default function Page() {
       <section className="space-y-3">
         <H2>Who am I?</H2>
         <p>
-          My name is Vitalii Khomenko I&apos;m 15 years old. I am a software
+          My name is Vitalii Khomenko I&apos;m 16 years old. I am a software
           developer from Ukraine. I started programming in 2021, at the age of
           12-13 years old.{" "}
         </p>
