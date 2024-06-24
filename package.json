@@ -12,7 +12,6 @@
   "dependencies": {
     "@datastax/astra-db-ts": "^0.1.4",
     "@langchain/openai": "^0.0.15",
-    "@upstash/redis": "^1.28.4",
     "ai": "^2.2.37",
     "clsx": "^2.1.0",
     "dotenv": "^16.4.5",
