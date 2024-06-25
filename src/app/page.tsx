@@ -30,7 +30,7 @@ export default function Home() {
           />
         </div>
       </section>
-      <section className="space-y-3 text-center">
+      <section className="space-y-3 text-left">
         <H2>Ask the chatbot something about me</H2>
         <p>
           Click the little <Bot className="inline pb-1" /> icon in the top bar
